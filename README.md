@@ -21,14 +21,17 @@ Install the package via npm:
 
 # API
 getImageCaptions(imagePath)
-Generates captions for the image located at imagePath.
+- Generates captions for the image located at imagePath.
 
 imagePath (string): Path to the image file.
-Returns a Promise that resolves with an array of captions generated for the image.
+- Returns a Promise that resolves with an array of captions generated for the image.
 
 # Dependencies
 @tensorflow/tfjs
 @tensorflow-models/coco-ssd
 
+# Predictions
+This npm package utilizes TensorFlow.js to analyze images and extract objects, enabling it to make predictions. Based on these predictions, captions are generated for the images. It's important to note that while this package provides an initial initiative towards image captioning, the accuracy of the captions may vary. Further training of the TensorFlow models may be required to improve the accuracy of the captions.
+
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
