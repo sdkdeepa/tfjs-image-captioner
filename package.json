@@ -2,6 +2,8 @@
   "name": "image-captioning",
   "version": "0.0.1",
   "description": "Try creating an AI-powered image captioning",
+  "homepage":"https://www.npmjs.com/package/image-captioning",
+  "repository": {"url": "https://github.com/sdkdeepa/image-captioning"},
   "scripts": {
     "build": "node index.js"
   },
