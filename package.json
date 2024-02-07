@@ -1,10 +1,10 @@
 {
-  "name": "image-captioning",
-  "version": "0.0.1",
+  "name": "tensorflowjs-image-captioning",
+  "version": "1.0.0",
   "description": "Try creating an AI-powered image captioning",
-  "homepage": "https://www.npmjs.com/package/image-captioning",
+  "homepage": "https://www.npmjs.com/package/tensorflowjs-captioning",
   "repository": {
-    "url": "https://github.com/sdkdeepa/image-captioning"
+    "url": "https://github.com/sdkdeepa/tensorflowjs-image-captioning"
   },
   "scripts": {
     "build": "node index.js"

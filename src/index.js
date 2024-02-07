@@ -34,5 +34,6 @@ async function getImageCaptions(imagePath) {
 }
 
 // Example usage
-const imagePath = "../src/cat.jpeg";
+//const imagePath = "../src/cat.jpeg";
+const imagePath = "../src/dog.jpeg"
 getImageCaptions(imagePath).then(caption => console.log('Caption:', caption));
