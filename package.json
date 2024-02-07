@@ -1,18 +1,19 @@
 {
-  "name": "tensorflowjs-image-captioning",
+  "name": "tfjs-image-captioner",
   "version": "1.0.0",
-  "description": "Try creating an AI-powered image captioning",
-  "homepage": "https://www.npmjs.com/package/tensorflowjs-captioning",
+  "description": "Generate image captions with TensorFlow.js pre-trained models",
+  "homepage": "https://www.npmjs.com/package/tfjs-image-captioner",
   "repository": {
-    "url": "https://github.com/sdkdeepa/tensorflowjs-image-captioning"
+    "url": "https://github.com/sdkdeepa/tfjs-image-captioner"
   },
   "scripts": {
-    "build": "node index.js"
+    "test": "echo 'No tests implemented yet' "
   },
   "keywords": [
-    "tensorflow",
-    "image captioning",
-    "machine learning model"
+    "image-captioning",
+    "tensorflowjs",
+    "machine-learning",
+    "computer-vision"
   ],
   "author": "Deepa Subramanian",
   "license": "MIT",
